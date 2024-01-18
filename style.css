@@ -1,0 +1,231 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;1,500&family=Teko:wght@600&display=swap');
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-size: 1rem;
+font-family: 'Inter', sans-serif;
+font-weight: 500;
+}
+:root{
+
+}
+body{
+    background: #1F1517;
+    color: #FFF;
+}
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+ul{
+    list-style: none;
+}
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-family: 'Teko','sans-serif';
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.menu-list{
+    display: flex;
+    gap: 1.5rem;
+    color:#FFF2E780
+}
+.github-class{
+    color:#FFF2E7;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.hero-allContent{
+    background: #181012;
+}
+.hero-container{
+    background: #181012;
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 0rem var(--Padding-X---Grid, 160px);
+    overflow: clip;
+    margin: auto;   
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.newsletter{
+   font-family: 'Epilogue', 'sans-serif';
+   font-weight: 500;
+   font-size: 0.875rem;
+   text-transform: uppercase;
+
+}
+.marrom{
+    color: #A45A49;
+}
+h1{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+hr{
+    border-color: #A45A49;
+}
+.hero-caption{
+    color: #C7BAB3;
+    font-family: 'Inter','sans-serif';
+    font-size:1.25rem;
+    font-weight: 400;
+}
+.hero-img-container {
+    max-width: 45%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+}
+.hero-img-container > figure > img{
+    width: 100%;
+    border-radius: var(--Border-Radius, .5rem);
+ 
+
+}
+.btn-container{
+    width: 100%;
+    margin: auto;
+    transform: translate("0,-50%");
+    margin-left: 16rem;
+}
+.btn-container button{
+    border: none;
+    padding: .5rem;
+    border-radius: .5rem;
+    background: #A45A49;
+}
+.receita-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    padding: 3rem 2rem;
+    margin: auto;
+    
+}
+.receita-header{
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+}
+.receita-title{
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 2rem;
+    font-weight: 700;
+}
+.receita-subtitle{
+    color: #C7BAB3;
+    font-family: 'Inter','sans-serif';
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.receita-card-container{
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.receita-card{
+    background: #241A1C;
+    padding: 2rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: 29rem;
+    margin-top: 2rem;
+}
+.receita-card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.receita-card-header-info{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.yellow{
+    color:#E7A80E ;
+}
+.receita-h3-title{
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-weight: 700;
+    
+}
+.receita-rating{
+    color:#756A67;
+    font-family:Inter;
+    font-size: 1rem;
+    font-weight: 500;   
+}
+.receita-description{
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;  
+}
+.receita-author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+.receita-author > img{
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+.receita-author-name{
+    color: #C7BAB3;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 1rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    align-items: center;
+    gap: .5rem;
+    background: #23181A;
+}
+.copy-footer{
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+.author-footer{
+    color: rgba(255,242,231,.5);
+    font-family: Inter;
+    font-size: .875rem;
+    font-weight: 500;
+}
